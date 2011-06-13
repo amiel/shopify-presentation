@@ -1,0 +1,10 @@
+* What is shopify
+* Why you might use it
+** Payment Processing
+** SSL
+** security updates
+** Code <- what does this mean?
+* what you/client can do
+* themeing
+* plugins (what's available, what you can do)
+* questions

@@ -1,0 +1,11 @@
+{
+  "name": "Introduction to Shopify",
+  "sections": [
+    {"section":"intro"},
+    {"section":"what_is_shopify"},
+    {"section":"why_shopify"},
+    {"section":"theming"},
+    {"section":"plugins"},
+    {"section":"questions"}
+  ]
+}
