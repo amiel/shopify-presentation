@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 # An Introduction to Shopify #
 
 !SLIDE bullets

@@ -1,23 +1,28 @@
-!SLIDE
+!SLIDE subsection
 # Why Use Shopify? #
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # The Alternative #
 
 * Magento
-* osCommerce
+* Zen Cart
 * VP-ASP ($295 - $795)
+* PrestaShop
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # The Alternative #
 
-* You install
-* You maintain
-* o
+* You have to do the install
+* You have to maintain it
+* You have to deal with security (SSL)
+* Design tends to be difficult
 
 
 !SLIDE bullets incremental
+# Why Use Shopify #
 
-* Security
+* Security provided
+* Hosting provided
 * Theming
+* Easy payment processing
 
