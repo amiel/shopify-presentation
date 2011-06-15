@@ -147,24 +147,38 @@ Javascript</li>
 </div><div class="slide" data-transition="none"><div class="content center" ref="theming/01_theme_store/1">
 <h1>Theme Store</h1>
 
-<p><img src="file:///Users/amiel/src/shopify-presentation/theming/../themeing/theme_store_1.png" alt="Theme Store"/></p></div>
+<p><img src="file:///Users/amiel/src/shopify-presentation/theming//theme_store_1.png" alt="Theme Store"/></p></div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="theming/01_theme_store/2">
 <h1>Theme Store</h1>
 
-<p><img src="file:///Users/amiel/src/shopify-presentation/theming/../themeing/theme_store_2.png" alt="Theme Store"/></p></div>
+<p><img src="file:///Users/amiel/src/shopify-presentation/theming//theme_store_2.png" alt="Theme Store"/></p></div>
 </div><div class="slide" data-transition="none"><div class="content subsection" ref="theming/02_liquid/1">
 <h1>Theming</h1></div>
 </div><div class="slide" data-transition="none"><div class="content code small" ref="theming/02_liquid/2">
-<h1>Liquid Examples</h1>
+<h1>Liquid Examples: Cart</h1>
 
 <pre class="sh_html"><code>&lt;div id="cart"&gt;
   &lt;a href="/cart"&gt;
     {{ cart.item_count }}
     {{ cart.item_count | pluralize: "Item", "Items" }}
   &lt;/a&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;</code></pre></div>
+</div><div class="slide" data-transition="none"><div class="content code small" ref="theming/02_liquid/3">
+<h1>Liquid Examples: Product</h1>
 
-<!-- http://cheat.markdunkley.com/ -->
+<pre class="sh_html"><code>&lt;h1&gt;{{ product.title | escape }}&lt;/h1&gt;
+&lt;div id="image"&gt;
+  &lt;img
+    src="{{ product.images[0] | product_img_url: "large" }}"
+    alt="{{ product.title | escape }}" /&gt;
+&lt;/div&gt;
+&lt;div id="details"&gt;
+  {{ product.description }}
+&lt;/div&gt;</code></pre></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="theming/02_liquid/4">
+<h1>Liquid Commands</h1>
+
+<iframe src="http://cheat.markdunkley.com/" style="width: 100%; height: 100%;"/>
 </div>
 </div><div class="slide" data-transition="none"><div class="content" ref="questions/01_finish">
 <p>http://cheat.markdunkley.com/</p></div>
