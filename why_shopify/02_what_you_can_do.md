@@ -1,5 +1,5 @@
 !SLIDE subsection
-# What you can do with Shopify #
+# What Shopify is like #
 
 !SLIDE center
 ![NewProduct](new_product.png)
