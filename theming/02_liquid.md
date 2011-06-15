@@ -2,7 +2,7 @@
 # Theming #
 
 !SLIDE code small
-# Liquid Examples #
+# Liquid Examples: Cart #
 
     @@@ html
     <div id="cart">
@@ -12,6 +12,21 @@
       </a>
     </div>
 
+!SLIDE code small
+# Liquid Examples: Product #
 
+    @@@ html
+    <h1>{{ product.title | escape }}</h1>
+    <div id="image">
+      <img
+        src="{{ product.images[0] | product_img_url: "large" }}"
+        alt="{{ product.title | escape }}" />
+    </div>
+    <div id="details">
+      {{ product.description }}
+    </div>
 
-<!-- http://cheat.markdunkley.com/ -->
+!SLIDE
+# Liquid Commands #
+
+<iframe src="http://cheat.markdunkley.com/" style="width: 100%; height: 100%;"></iframe>
