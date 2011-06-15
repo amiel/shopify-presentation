@@ -1,19 +1,20 @@
-!SLIDE center
+!SLIDE subsection
 # What you can do with Shopify #
 
-![Checkout and Payment](checkout_payment.png)
+!SLIDE center
+![NewProduct](new_product.png)
+
 
 !SLIDE center
-# What you can do with Shopify #
+![Collections](collections.png)
 
-![New Product](new_product.png)
-
-!SLIDE center
-# What you can do with Shopify #
-
-![Blogs and Pages](blogs_pages.png)
 
 !SLIDE center
-# What you can do with Shopify #
+![BlogsPages](blogs_pages.png)
 
+
+!SLIDE center
 ![Fullfillment](fullfillment.png)
+
+!SLIDE center
+![CheckoutPayment](checkout_payment.png)

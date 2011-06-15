@@ -1,9 +1,8 @@
-!SLIDE center
-# Theme Store #
-
-![Theme Store](/theme_store_1.png)
+!SLIDE subsection
+# Themes #
 
 !SLIDE center
-# Theme Store #
+![ThemeStore](theme_store_1.png)
 
-![Theme Store](/theme_store_2.png)
+!SLIDE center
+![ThemeStore](theme_store_2.png)
