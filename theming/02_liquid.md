@@ -1,5 +1,5 @@
 !SLIDE subsection
-# Theming #
+# Writing your own theme #
 
 !SLIDE code small
 # Liquid Examples: Cart #

@@ -22,3 +22,9 @@
 
 * App Store
 * API
+
+!SLIDE bullets
+# API #
+
+* You host your own logic
+* Use Shopify's awesome API
